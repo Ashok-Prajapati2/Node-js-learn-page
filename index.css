@@ -1,0 +1,1363 @@
+:root {
+  /* fonts */
+  /* --font-clash-grotesk: "Clash Grotesk";
+  --font-cabinet-grotesk: "Cabinet Grotesk";
+  --font-chillax: Chillax;
+  --font-space-grotesk: "Space Grotesk";
+  --font-roboto: Roboto;
+  --font-inter: Inter;
+  --font-font-awesome-5-free: "Font Awesome 5 Free"; */
+
+  --color-black: #000;
+  --color-white: #fff;
+  --color-whitesmoke: #f4f4f4;
+  --color-darkslategray: #454141;
+
+
+
+}
+
+
+/*==================================================== */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+
+
+* {
+  font-family: 'Poppins', sans-serif;
+
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+  padding: 0;
+  margin: 0;
+  background: rgb(9, 9, 1);
+  color: rgb(255, 255, 255);
+  list-style: none;
+}
+
+html {
+  font-size: 80.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+/* =============================== */
+body {
+  display: flexbox;
+  /* position: relative; */
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+}
+
+nav {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1vh;
+  padding-left: 1vh;
+  padding-right: 2vh;
+
+
+
+}
+
+i {
+  color: rgb(255, 255, 255);
+}
+
+nav img {
+  width: 1.5rem;
+  height: auto;
+  position: relative;
+  background: none;
+
+}
+
+.logo {
+  /* display: flexbox;  */
+  position: relative;
+  top: -0.6rem;
+  font-size: 1.2rem;
+  left: 1vw;
+
+}
+
+.logo-t {
+
+  font-family: serif;
+  position: relative;
+  top: 1.5rem;
+  left: 2.2rem;
+
+
+}
+
+.logo-img {
+  position: relative;
+}
+
+nav ul li {
+  display: flexbox;
+  padding-left: 1rem;
+  font-size: 1vw;
+  list-style-type: none;
+  display: inline-block;
+  padding: 2vw;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+
+}
+
+nav ul li a:hover {
+  color: rgb(243, 247, 175);
+  transition: .3s;
+}
+
+.social i {
+  padding: 0.09rem;
+
+}
+
+/*========== main work=============== */
+.main {
+  display: flexbox;
+  padding-top: 8rem;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  box-sizing: border-box;
+}
+
+.back-ground-image {
+  width: 90vw;
+  height: 40vh;
+
+}
+
+.a-fastest-growing,
+.artists-platform {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  font-size: 4.5vw;
+  text-align: center;
+  top: -37vh;
+
+
+}
+
+.a-fastest-growing {
+
+
+  background: linear-gradient(90deg,
+      #df9019,
+      #fee818 38.02%,
+      #4cb4cd 75.83%,
+      #03942b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.artists-platform {
+
+  background: none;
+}
+
+.discover-connect-and-container {
+  text-align: center;
+  position: relative;
+  top: -34vh;
+  background: none;
+
+}
+
+.discover-connect-and {
+  font-weight: 800;
+  background: none;
+  font-size: 2vw;
+  letter-spacing: 0.01rem;
+  padding-left: 7vw;
+  padding-right: 7vw;
+
+}
+
+.discover-connect-and-create {
+
+  background: none;
+}
+
+.artshell-is-an-online-platform {
+  letter-spacing: 0.001rem;
+  background: none;
+  font-size: 2vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+
+/* ============== */
+
+.cta {
+  display: flexbox;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  padding-bottom: 2rem;
+  position: relative;
+  top: -27vh;
+  background: none;
+  font-size: 3vw;
+
+}
+
+.artists {
+  position: relative;
+  font-family: var(--font-space-grotesk);
+  text-align: center;
+
+
+}
+
+.art-works-wrapper,
+.artists-wrapper {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 20rem;
+  box-sizing: border-box;
+
+
+}
+
+.artists-wrapper {
+
+
+  padding: 0.5em;
+
+  background: linear-gradient(rgb(15, 13, 13), rgb(6, 5, 5)) padding-box,
+    linear-gradient(45deg, rgb(228, 212, 34), rgb(255, 68, 0)) border-box;
+  border: .25rem solid transparent;
+
+
+
+
+}
+
+.art-works-wrapper {
+  border: 2px solid var(--color-white);
+  background: none;
+  margin: 1rem;
+}
+
+/* ========= */
+
+
+
+/* ================ */
+
+.silderpic {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  box-sizing: border-box;
+  top: -15vh;
+}
+
+
+.silderpic div img {
+  width: 20vw;
+
+  padding: 1em;
+  background: none;
+  border-radius: 0em;
+
+}
+
+
+/* ====== */
+.aerrow1 {
+  /* width: 20vw; */
+  position: relative;
+
+  left: 1vw;
+}
+
+.fa-solid.fa-arrow-right {
+  border: 0.08rem solid rgb(253, 253, 253);
+  padding: 0.2rem;
+  border-radius: 20rem;
+
+}
+
+.fa-solid.fa-arrow-left {
+  border: 0.08rem solid white;
+  padding: 0.2rem;
+  border-radius: 20rem;
+
+}
+
+.aerrow2 {
+  position: relative;
+
+  left: -70vw;
+}
+
+/* ============ */
+
+.our-achievements,
+.trust-we-build {
+  position: relative;
+  letter-spacing: 0.08em;
+  font-weight: bolder;
+  font-size: 8vw;
+  top: -5vh;
+  text-align: center;
+}
+
+.our-achievements {
+  position: relative;
+  text-align: center;
+
+  top: -8vh;
+
+  background: linear-gradient(90deg,
+      #df9019,
+      #fee818 38.02%,
+      #4cb4cd 75.83%,
+      #03942b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ================================ */
+
+
+
+
+
+/* ============= */
+.part1 {
+  display: flexbox;
+}
+
+.frameimg {
+  position: relative;
+  display: flex;
+
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+
+}
+
+.frame-icon {
+
+  position: relative;
+
+  width: 60vw;
+  /* height: 3rem; */
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.im1 {
+
+  position: relative;
+  left: -25vw;
+  top: -10vh;
+  width: 7vw;
+  border-radius: 50%;
+
+
+}
+
+.im2 {
+
+  position: relative;
+  left: -25vw;
+  top: -1vh;
+  width: 7vw;
+  border-radius: 50%;
+
+}
+
+.im3 {
+
+  position: relative;
+  left: 35vw;
+  top: -10vh;
+  width: 7vw;
+  border-radius: 50%;
+}
+
+.im4 {
+  position: relative;
+  left: 20vw;
+  top: -1vh;
+  width: 7vw;
+  border-radius: 50%;
+
+}
+
+.im5 {
+  position: relative;
+  left: -20vw;
+  top: 15vh;
+  width: 7vw;
+  border-radius: 50%;
+}
+
+.im6 {
+  position: relative;
+  left: -15vw;
+  top: 4vh;
+  width: 7vw;
+  border-radius: 50%;
+}
+
+.im7 {
+  position: relative;
+  /* left: -vw; */
+  top: 5vh;
+  width: 7vw;
+  border-radius: 50%;
+}
+
+.im8 {
+  position: relative;
+  left: 20vw;
+  top: 10vh;
+  width: 7vw;
+  border-radius: 50%;
+}
+
+.im9 {
+  position: relative;
+  left: 5vw;
+  top: -2vh;
+  width: 7vw;
+  border-radius: 50%;
+}
+
+/* ================================ */
+.hire-anyone,
+.our-top-artists {
+  background: none;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 900;
+  font-size: 5vw;
+  text-align: center;
+  top: 15vh;
+}
+
+.our-top-artists {
+
+  background: linear-gradient(90deg,
+      #df9019,
+      #fee818 38.02%,
+      #4cb4cd 75.83%,
+      #03942b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* =========================================== */
+.shoping3 {
+  background: none;
+  display: flexbox;
+  position: relative;
+  top: 55vh;
+
+}
+
+
+.fream1 {
+  position: absolute;
+  background: rgba(69, 65, 65, 1);
+
+
+  width: 28vw;
+  height: 18vw;
+
+  border-radius: 1rem;
+
+}
+
+.shop1 {
+  display: flex;
+  background: none;
+
+}
+
+.shop1-img {
+  position: absolute;
+  background: none;
+  position: relative;
+  width: 15vw;
+  top: -8.2vw;
+  left: 13vw;
+
+
+}
+
+.jessica1 {
+  position: absolute;
+  background: none;
+  position: relative;
+  font-size: 1.5vw;
+  font-weight: 800;
+  top: 12.2vw;
+  left: -13vw;
+
+}
+
+.b1 {
+  position: absolute;
+  background: none;
+  position: relative;
+  font-size: 5vw;
+  font-weight: 800;
+  top: 4vw;
+  left: -20vw;
+}
+
+/* ---------------------------- */
+
+
+
+.fream2 {
+  position: absolute;
+  background: rgba(69, 65, 65, 1);
+  left: 30vw;
+  top: -8vw;
+
+  width: 30vw;
+  height: 20vw;
+
+  border-radius: 1rem;
+
+}
+
+.shop2 {
+  display: flex;
+  background: none;
+
+}
+
+.shop2-img {
+  position: absolute;
+  background: none;
+  position: relative;
+  width: 20vw;
+  top: -44.5vw;
+  left: 16.8vw;
+
+
+}
+
+.jessica2 {
+  /* position: absolute; */
+  background: none;
+  position: relative;
+  font-size: 1.9vw;
+  font-weight: 800;
+  top: -20.2vw;
+  left: 32vw;
+
+}
+
+.b2 {
+  position: absolute;
+  background: none;
+  position: relative;
+  font-size: 8vw;
+  font-weight: 800;
+  top: -31.2vw;
+  left: 18vw;
+}
+
+/* ---------------------- */
+.fream3 {
+  position: absolute;
+  background: rgba(69, 65, 65, 1);
+  left: 60vw;
+  top: -1vw;
+
+  margin: 1rem;
+
+  width: 28vw;
+  height: 18vw;
+
+  border-radius: 1rem;
+}
+
+.shop3 {
+  display: flex;
+  background: none;
+
+}
+
+.shop3-img {
+  position: absolute;
+  background: none;
+  position: relative;
+  width: 25vw;
+  top: -61.2vw;
+  left: 54vw;
+
+
+}
+
+.jessica3 {
+  /* position: absolute; */
+  background: none;
+  position: relative;
+  font-size: 1.5vw;
+  font-weight: 800;
+  top: -45.2vw;
+  left: 63vw;
+
+}
+
+.b3 {
+  position: absolute;
+  background: none;
+  position: relative;
+  font-size: 6vw;
+  font-weight: 800;
+  top: -54.2vw;
+  left: 54vw;
+}
+
+/* ------------------------ */
+.shop4-5 {
+  display: flexbox;
+  position: relative;
+  background: none;
+  top: -55vw;
+
+}
+
+.shop4-5 .frame-icon1 {
+  width: 30vw;
+  background: none;
+  position: relative;
+}
+
+.shop4-5 .frame-icon2 {
+  width: 30vw;
+  position: relative;
+  background: none;
+
+}
+
+/* ============================================== */
+
+.testimonials {
+  position: relative;
+  top: 10vw;
+  background: none;
+  padding-top: 1rem;
+}
+
+.testimonials .test-text {
+  /* linear */
+
+  position: relative;
+  top: -1vh;
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 7vw;
+
+}
+
+/* -------------------------------------------------- */
+
+.t-1 {
+  position: relative;
+  width: 80vw;
+  top: 30vh;
+  background: none;
+}
+
+.t-2 {
+  width: 30vw;
+  position: relative;
+  top: -17vh;
+  left: -9vw;
+
+}
+
+.t-3 {
+  position: relative;
+  width: 12vw;
+  top: -59vw;
+  background: none;
+  left: -5vw;
+}
+
+/* ---------------------------------------------------- */
+.t-box1 {
+  position: relative;
+  width: 32vw;
+  font-size: 2vw;
+  left: 38vw;
+  top: -50vw;
+
+}
+
+.t-box1 h3 {
+  padding: 1rem;
+  padding-bottom: 0rem;
+}
+
+.t-box1 h6 {
+  font-size: 1vw;
+  padding-bottom: 0rem;
+}
+
+.t-box1 p {
+  padding: 1rem;
+  padding-bottom: 0rem;
+  font-size: 2vw;
+}
+
+
+.s-box1 {
+  position: relative;
+  width: 20vw;
+  font-size: 1vw;
+  left: 40vw;
+  top: -49vw;
+}
+
+.s-box1 img {
+  width: 3vw;
+}
+
+/* ----------------------------------------------- */
+.aerrow3 {
+  position: relative;
+  left: 38vw;
+  top: -75vw;
+  background: none;
+}
+
+.aerrow4 {
+  position: relative;
+  left: -40vw;
+  top: -76vw;
+  background: none;
+}
+
+.aerrow3 .fa-solid.fa-arrow-right {
+  width: 5vw;
+  border-radius: 50rem;
+}
+
+.aerrow4 .fa-solid.fa-arrow-left {
+  width: 5vw;
+  border-radius: 50rem;
+}
+
+/* -------------------------------------- */
+
+.t-logo {
+  background: none;
+  position: relative;
+
+}
+
+.t-logo img {
+  background: none;
+  position: relative;
+  left: 28vw;
+  top: -52vw;
+  width: 15vw;
+}
+
+/* ================================================== */
+
+
+.t-work {
+  display: flexbox;
+}
+
+.o-art-text1 {
+  font-family: 'Clash Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5vw;
+  /* line-height: 5vh; */
+  letter-spacing: 0.02em;
+  position: relative;
+  /* linear */
+  padding: 1rem;
+  top: -30vh;
+
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+}
+
+.o-art-text2 {
+  position: relative;
+  font-family: 'Clash Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3vw;
+  /* line-height: 5vh; */
+  letter-spacing: 0.02em;
+  top: -30vh;
+}
+
+.fa-solid.fa-magnifying-glass {
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+  color: #000;
+  border-radius: 10rem;
+  padding: 0.3rem;
+}
+
+.s-bar1 {
+  background: none;
+  position: relative;
+  border: 0.1rem solid white;
+  border-radius: 20rem;
+  width: 20vw;
+  padding: 0.5rem;
+ left: 35vw;
+ top: -25vh;
+}
+input{
+  background: none;
+}
+
+/* ---------------------- */
+.btn{
+  position: relative;
+  top: -10vh;
+}
+.btn button{
+ border: 0.1rem solid white;
+ border-radius: 20rem;
+ padding: 0.4rem;
+ margin: 0.2rem;
+ font-size: 1.5vw;
+}
+.btn .btn1{
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+  color: #000;
+   font-weight: 900;
+}
+
+/* ------------------------- */
+
+.t-img-w img{
+width: 20vw;
+}
+.i2{
+  position: relative;
+  top: 10vw;
+}
+.t-img-w-t{
+  display: flex;
+  position: relative;
+  background: none;
+}
+
+.t-img-w-t .t01{
+  position: relative;
+  left: 18vw;
+  font-size: 1.6vw;
+ /* linear */
+
+background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+.t-img-w-t .t02{
+  position: relative;
+  left: 28vw;
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 1.6vw;
+  
+  top: 10vw;
+}
+.t-img-w-t .t03{
+  background: none;
+  position: relative;
+  left: 38vw;
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+  font-size: 1.6vw;
+}
+.t-img-w-t .t04{
+  background: none;
+  position: relative;
+  width: 15vw;
+  font-size: 1.4vw;
+  left: 18vw;
+  text-align: start;
+}
+.t-img-w-t .t05{
+  background: none;
+  position: relative;
+  width: 15vw;
+  font-size: 1.4vw;
+  left: 22vw;
+  top: 11vw;
+  text-align: start;
+}
+.t-img-w-t .t06{
+  background: none;
+  position: relative;
+  width: 15vw;
+  font-size: 1.4vw;
+  left: 29vw;
+  text-align: start;
+}
+
+.t-img-w-t .t07{
+  position: relative;
+  left: 18vw;
+  font-size: 1.6vw;
+ /* linear */
+
+background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+.t-img-w-t .t08{
+  position: relative;
+  left: 25vw;
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 1.6vw;
+  /* background: none; */
+  top: 12vw;
+}
+.t-img-w-t .t09{
+  /* background: none; */
+  position: relative;
+  left: 33vw;
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+  font-size: 1.6vw;
+}
+
+
+/* ========================================== */
+
+.t010{
+  position: relative;
+  left: 18vw;
+  font-size: 1.6vw;
+ /* linear */
+
+background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+.t011{
+  position: relative;
+  left: 28vw;
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 1.6vw;
+  
+  /* top: 10vw; */
+}
+.t012{
+  background: none;
+  position: relative;
+  left: 38vw;
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+  font-size: 1.6vw;
+}
+.t013{
+  background: none;
+  position: relative;
+  width: 15vw;
+  font-size: 1.4vw;
+  left: 18vw;
+  text-align: start;
+  
+}
+.t014{
+  background: none;
+  position: relative;
+  width: 15vw;
+  font-size: 1.4vw;
+  left: 22vw;
+  /* top: 11vw; */
+  text-align: start;
+}
+.t015{
+  background: none;
+  position: relative;
+  width: 15vw;
+  font-size: 1.4vw;
+  left: 29vw;
+  text-align: start;
+}
+
+.t016{
+  position: relative;
+  left: 18vw;
+  font-size: 1.6vw;
+ /* linear */
+
+background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+.t017{
+  position: relative;
+  left: 25vw;
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 1.6vw;
+  /* background: none; */
+  /* top: 12vw; */
+}
+.t018{
+  /* background: none; */
+  position: relative;
+  left: 33vw;
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+  font-size: 1.6vw;
+  
+}
+
+/* ---------------------------------------- */
+
+.t019{
+  position: relative;
+  left: 18vw;
+  font-size: 1.6vw;
+ /* linear */
+
+background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+.t020{
+  position: relative;
+  left: 28vw;
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 1.6vw;
+  
+  top: 10vw;
+}
+.t021{
+  background: none;
+  position: relative;
+  left: 38vw;
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+  font-size: 1.6vw;
+}
+.t022{
+  background: none;
+  position: relative;
+  width: 15vw;
+  font-size: 1.4vw;
+  left: 18vw;
+  text-align: start;
+}
+.t023{
+  background: none;
+  position: relative;
+  width: 15vw;
+  font-size: 1.4vw;
+  left: 22vw;
+  top: 11vw;
+  text-align: start;
+}
+.t024{
+  background: none;
+  position: relative;
+  width: 15vw;
+  font-size: 1.4vw;
+  left: 29vw;
+  text-align: start;
+}
+
+.t025{
+  position: relative;
+  left: 18vw;
+  font-size: 1.6vw;
+ /* linear */
+
+background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+.t026{
+  position: relative;
+  left: 25vw;
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 1.6vw;
+  /* background: none; */
+  top: 12vw;
+}
+.t027{
+  /* background: none; */
+  position: relative;
+  left: 33vw;
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+  font-size: 1.6vw;
+}
+/* -------------------------------------------- */
+
+.t028{
+  position: relative;
+  left: 18vw;
+  font-size: 1.6vw;
+ /* linear */
+
+background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+top: 10vw;
+
+
+}
+.t029{
+  position: relative;
+  left: 28vw;
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 1.6vw;
+  
+  top: 10vw;
+}
+.t030{
+  background: none;
+  position: relative;
+  left: 38vw;
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+  font-size: 1.6vw;
+  top: 10vw;
+}
+.t031{
+  background: none;
+  position: relative;
+  width: 15vw;
+  font-size: 1.4vw;
+  left: 18vw;
+  text-align: start;
+  top: 10vw;
+}
+.t032{
+  background: none;
+  position: relative;
+  width: 15vw;
+  font-size: 1.4vw;
+  left: 22vw;
+  top: 11vw;
+  text-align: start;
+}
+.t033{
+  background: none;
+  position: relative;
+  width: 15vw;
+  font-size: 1.4vw;
+  left: 29vw;
+  text-align: start;
+  top: 10vw;
+}
+
+.t034{
+  position: relative;
+  left: 18vw;
+  font-size: 1.6vw;
+ /* linear */
+
+background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+top: 10vw;
+
+
+}
+.t035{
+  position: relative;
+  left: 25vw;
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 1.6vw;
+  /* background: none; */
+  top: 12vw;
+}
+.t036{
+  /* background: none; */
+  position: relative;
+  left: 33vw;
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+  font-size: 1.6vw;
+  top: 10vw;
+}
+
+/* ========================================== */
+
+.footer{
+  position: relative;
+  top: -35vw;
+  background: none;
+}
+.footer button{
+  border: 0.1rem solid wheat;
+  padding: 0.5rem;
+  border-radius: 20rem;
+  background: linear-gradient(rgb(15, 13, 13), rgb(6, 5, 5)) padding-box,
+  linear-gradient(45deg, rgb(228, 212, 34), rgb(255, 68, 0), rgb(228, 34, 160), rgb(26, 174, 197)) border-box;
+border: .25rem solid transparent;
+
+font-size: 3vw;
+
+
+}
+
+/* == */
+footer{
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  top: -25vw;
+}
+footer div{
+  padding: 1rem;
+}
+footer img {
+  width: 1.4rem;
+}
+footer .om-santi{
+  background: linear-gradient(90deg, #DF9019 0%, #FEE818 38.02%, #4CB4CD 75.83%, #03942B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
